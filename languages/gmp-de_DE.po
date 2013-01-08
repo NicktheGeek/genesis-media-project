@@ -1,0 +1,435 @@
+# This German language file Copyright (C) 2012 Genesis Dashboard News by David Decker of deckerweb.de
+# This file is distributed under the same license as the Genesis Media Project Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer Genesis Framework, Genesis Child Themes und Genesis Plugins
+# sowie WordPress Plugins und Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis Media Project Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-23 02:08+0100\n"
+"PO-Revision-Date: 2012-02-23 03:50+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ gmp
+#: classes/module-loader/module-loader.php:129
+#: classes/module-loader/module-loader.php:136
+#, php-format
+msgid "Activate the %s module?"
+msgstr "Das %s Modul aktivieren?"
+
+#@ gmp
+#: classes/module-loader/module-loader.php:163
+msgid "Genesis Media Project"
+msgstr "Genesis Medienprojekt"
+
+#@ gmp
+#: classes/module-loader/module-loader.php:164
+msgid "Media Project"
+msgstr "Medienprojekt"
+
+#@ gmp
+#: classes/module-loader/module-loader.php:184
+msgid "Select Modules"
+msgstr "Module auswählen"
+
+#@ gmp
+#: modules/tab-slider/admin.php:21
+msgid "Genesis Media Project Video Tab Slider Setting"
+msgstr "Genesis Medienprojekt - Video Tab-Slider Einstellungen"
+
+#@ gmp
+#: modules/tab-slider/admin.php:22
+msgid "Tabs Settings"
+msgstr "Tab-Einstellungen"
+
+#@ gmp
+#: modules/tab-slider/admin.php:56
+msgid "Add Slideshow to theme"
+msgstr "Slideshow dem Theme hinzufügen"
+
+#@ gmp
+#: modules/tab-slider/admin.php:57
+#, php-format
+msgid "%1$sUse %2$s to add this to your theme.%3$sIf you do not specify the number of slides, the default from the settings will be used.%4$sIf you do not specify a slideshow by slug then the latest videos will be shown%5$s"
+msgstr "%1$sVerwenden Sie %2$s, um dies zu Ihrem Child Theme hinzuzufügen.%3$sWenn Sie die Zahl der Slides nicht angeben, wird der Standard von den Einstellungen verwendet.%4$sWenn Sie keine Slideshow via Permalinkteil (Slug) angeben, werden die neuesten Videos angezeigt%5$s"
+
+#@ gmp
+#: modules/tab-slider/admin.php:61
+msgid "Add Slideshow to Page/Post"
+msgstr "Slideshow zu Beitrag/ Seite hinzufügen"
+
+#@ gmp
+#: modules/tab-slider/admin.php:62
+#, php-format
+msgid "%1$sUse %2$s to add the slideshow to page or post content.%3$sIf you do not specify the number of slides, the default from the settings will be used.%4$sIf you do not specify a slideshow by slug then the latest videos will be shown.%5$s"
+msgstr "%1$sVerwenden Sie %2$s, um die Slideshow zu Ihrem Beitrags- oder Seiteninhalt hinzuzufügen.%3$sWenn Sie die Zahl der Slides nicht angeben, wird der Standard von den Einstellungen verwendet.%4$sWenn Sie keine Slideshow via Permalinkteil (Slug) angeben, werden die neuesten Videos angezeigt%5$s"
+
+#@ gmp
+#: modules/tab-slider/admin.php:66
+msgid "Add Slideshow to Widgeted Area"
+msgstr "Slideshow zu einem Widget-Bereich hinzufügen"
+
+#@ gmp
+#: modules/tab-slider/admin.php:67
+#, php-format
+msgid "%1$sAdd the GMP Tab Slider widget to any sidebar to display in a sidebar.%2$s"
+msgstr "%1$sDas Genesis Medienprojekt Tab-Slider-Widget zu einer beliebigen Sidebar hinzufügen, um es in der Seitenleiste anzuzeigen.%2$s"
+
+#@ gmp
+#: modules/tab-slider/admin.php:71
+msgid "For more details, please visit the module page"
+msgstr "Für weitere Details besuchen Sie bitte die Modulseite"
+
+#@ gmp
+#: modules/tab-slider/admin.php:71
+msgid "Genesis Media Project Tab Slider"
+msgstr "Genesis Medienprojekt Tab-Slider"
+
+#@ gmp
+#: modules/tab-slider/admin.php:84
+msgid "Number of Videos"
+msgstr "Anzahl der Videos"
+
+#@ gmp
+#: modules/tab-slider/admin.php:90
+msgid "Default Slideshow:"
+msgstr "Standard-Slideshow"
+
+#@ gmp
+#: modules/tab-slider/admin.php:91
+msgid "If no slideshow is selected, all videos will be used"
+msgstr "Wenn keine Slideshow ausgewählt ist, werden alle Videos verwendet"
+
+#@ gmp
+#: modules/tab-slider/admin.php:97
+msgid "Use Ajax to load slides"
+msgstr "Ajax verwenden, um die Slides zu laden"
+
+#@ gmp
+#: modules/tab-slider/admin.php:124
+#: modules/tab-slider/output.php:38
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#@ gmp
+#: modules/tab-slider/admin.php:148
+#: modules/tab-slider/output.php:76
+#: modules/tab-slider/output.php:96
+msgid "By"
+msgstr "von"
+
+#@ gmp
+#: modules/tab-slider/module.php:15
+msgid "Video Tab Slider"
+msgstr "Video Tab-Slider"
+
+#@ gmp
+#: modules/tab-slider/module.php:17
+msgid "Adds the video tab slider. This may be loaded as a shortcode, widget, or theme function."
+msgstr "Fügt den Video Tab-Slider hinzu. Dieser kann dann via Shortcode, Widget oder Theme-Funktion geladen werden."
+
+#@ gmp
+#: modules/tab-slider/widgets/tab-slider.php:13
+msgid "Displays Video Tab Slider"
+msgstr "Zeigt den Video Tab-Slider an"
+
+#@ gmp
+#: modules/tab-slider/widgets/tab-slider.php:15
+msgid "GMP - Video Tabs"
+msgstr "Genesis Medien - Video-Tabs"
+
+#@ gmp
+#: modules/tab-slider/widgets/tab-slider.php:53
+msgid "Title (will not be shown in output)"
+msgstr "Titel (wird nicht in der Ausgabe angezeigt)"
+
+#@ gmp
+#: modules/tab-slider/widgets/tab-slider.php:58
+msgid "Number of Slides to Show"
+msgstr "Anzahl anzuzeigender Slides"
+
+#@ gmp
+#: modules/tab-slider/widgets/tab-slider.php:61
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#@ gmp
+#: modules/tab-slider/widgets/tab-slider.php:63
+msgid "Select"
+msgstr "Auswählen"
+
+#@ gmp
+#: modules/video/meta-boxes.php:19
+msgid "Genesis Media Project Video Options"
+msgstr "Genesis Medienprojekt Video-Optionen"
+
+#@ gmp
+#: modules/video/meta-boxes.php:26
+msgid "Video URI"
+msgstr "Video-URI"
+
+#@ gmp
+#: modules/video/meta-boxes.php:27
+msgid "Simply paste the video URI and the theme will get the embed code automatically. If source is supported it will get the video and it will also get the default thumbnail"
+msgstr "Fügen Sie einfach die Video-URI ein und das Theme wird den Einbetten-Code automatisch ermitteln. Wenn die entsprechende Videoquelle/ der Dienst unterstützt wird, wird das Video automatisch eingefügt und außerdem automatisch ein Vorschaubild des Videos erstellt."
+
+#@ gmp
+#: modules/video/meta-boxes.php:32
+msgid "Video Embed"
+msgstr "Video Einbetten-Code"
+
+#@ gmp
+#: modules/video/meta-boxes.php:33
+msgid "For unsupported video sites you may paste the embed code here, but you will need to adjust the size of the video output."
+msgstr "Für nicht unterstützte Videodienste können Sie den Einbetten-Code hier manuell einfügen. Sie müssen dann die Größe des Videos selbst anpassen (Breite, Höhe)."
+
+#@ gmp
+#: modules/video/meta-boxes.php:38
+msgid "Video File"
+msgstr "Videodatei"
+
+#@ gmp
+#: modules/video/meta-boxes.php:39
+msgid "You may put a URI for a video file to be used with the included video player here."
+msgstr "Sie können hier die URI zu einer Videodatei angeben, die hier mit dem beigefügten Video-Player verwendet wird."
+
+#@ gmp
+#: modules/video/module.php:15
+msgid "Video Support"
+msgstr "Video-Unterstützung"
+
+#@ gmp
+#: modules/video/module.php:17
+msgid "Adds video post type and meta boxes for the videos as well as loads all functions to allow videos to work well with Genesis."
+msgstr "Fügt den Video-Inhaltstyp und Metaboxen für die Videos hinzu. Außerdem werden alle Funktionen geladen, damit Videos gut mit Genesis funktionieren."
+
+#@ gmp
+#: modules/video/video-thumbnail.php:390
+#: modules/video/video-thumbnail.php:397
+msgid "Reset Video Thumbnail"
+msgstr "Videovorschaubild zurücksetzen"
+
+#@ gmp
+#: modules/video/video-thumbnail.php:392
+msgid "We didn't find a video thumbnail for this post."
+msgstr "Es konnte kein Videovorschaubild für diesen Beitrag gefunden werden."
+
+#@ gmp
+#: modules/video/video-thumbnail.php:393
+msgid "Search Again"
+msgstr "Erneut suchen"
+
+#@ gmp
+#: modules/video/video-thumbnail.php:399
+msgid "A video thumbnail will be found for this post when it is published "
+msgstr "Es wird ein Videovorschaubild für diesen Beitrag ermittelt, wenn der Beitrag veröffentlicht wird. "
+
+#@ gmp
+#: modules/video/video-thumbnail.php:422
+msgid "Working"
+msgstr "Bei der Arbeit..."
+
+#@ gmp
+#: modules/video/video-thumbnail.php:449
+msgid "We didn't find a video thumbnail for this post. (be sure you have saved changes first)"
+msgstr "Es konnte kein Videovorschaubild für diesen Beitrag gefunden werden. (Stellen Sie sicher, dass Sie zuvor die Änderungen gespeichert haben - bzw. den Beitrag veröffentlich haben.)"
+
+#@ gmp
+#: plugin.php:25
+msgid "Sorry, you are not allowed to access this page directly."
+msgstr "Entschuldigung, aber Sie können diese Seite nicht direkt aufrufen."
+
+#@ gmp
+#: plugin.php:58
+#, php-format
+msgid "Sorry, you can't activate unless you have installed %1$sGenesis%2$s"
+msgstr "Hinweis: Dieses Plugin kann <em>nicht</em> aktiviert werden, solange das %1$sGenesis Framework%2$s nicht installiert ist."
+
+#@ gmp
+#: plugin.php:65
+#, php-format
+msgid "Sorry, you can't activate without %1$sGenesis %2$s%3$s or greater"
+msgstr "Hinweis: Dieses Plugin kann <em>nicht</em> aktiviert werden, außer das %1$sGenesis Framework Version %2$s%3$s oder höher ist installiert."
+
+#@ gmp
+#: modules/video/video-thumbnail.php:45
+#: modules/video/video-thumbnail.php:57
+#: modules/video/video-thumbnail.php:88
+#: modules/video/video-thumbnail.php:100
+#, php-format
+msgid "Error retrieving video information from the URL %1$s. If opening that URL in your web browser returns anything else than an error page, the problem may be related to your web server and might be something your host administrator can solve."
+msgstr "Es trat ein Fehler auf beim Versuch Videoinformationen von der URL %1$s zu laden. Wenn das Öffnen dieser URL in Ihrem Webbrowser alles außer einer Fehlerseite anzeigt, kann das Problem mt Ihrem Webserver zusammenhängen. In diesem Fall könnte Ihnen vielleicht Ihr Serveradministrator weiterhelfen."
+
+#@ gmp
+#: modules/video/video-thumbnail.php:315
+#, php-format
+msgid "Error retrieving a thumbnail from the URL %1$s. If opening that URL in your web browser shows an image, the problem may be related to your web server and might be something your server administrator can solve."
+msgstr "Es trat ein Fehler auf beim Versuch ein Videovorschaubild von der URL %1$s zu laden. Wenn das Öffnen dieser URL in Ihrem Webbrowser ein Bild anzeigt, kann das Problem mt Ihrem Webserver zusammenhängen. In diesem Fall könnte Ihnen vielleicht Ihr Serveradministrator weiterhelfen."
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:84
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:160
+#, php-format
+msgid "Add New %s"
+msgstr "%s hinzufügen"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:85
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:158
+#, php-format
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:88
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:153
+#, php-format
+msgid "Search %s"
+msgstr "%s suchen"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:91
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:156
+#, php-format
+msgid "Parent %s"
+msgstr "Übergeordnete %s"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:154
+#, php-format
+msgid "Popular %s"
+msgstr "Beliebte %s"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:155
+#, php-format
+msgid "All %s"
+msgstr "Alle %s"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:157
+#, php-format
+msgid "Parent %s:"
+msgstr "Übergeordnete %s:"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:159
+#, php-format
+msgid "Update %s"
+msgstr "%s aktualisieren"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:161
+#, php-format
+msgid "New %s Name"
+msgstr "Neuer %s Name"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:162
+#, php-format
+msgid "Seperate %s with commas"
+msgstr "%s mit Kommas abtrennen"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:163
+#, php-format
+msgid "Add or remove %s"
+msgstr "%s hinzufügen oder entfernen"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:164
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Wählen Sie aus den am meisten verwendeten %s"
+
+#@ gmp
+#: modules/video/post-types-taxonomies.php:8
+msgctxt "post type singular name"
+msgid "Video"
+msgstr "Video"
+
+#@ gmp
+#: modules/video/post-types-taxonomies.php:9
+msgctxt "post type general name"
+msgid "Videos"
+msgstr "Videos"
+
+#@ gmp
+#: modules/video/post-types-taxonomies.php:16
+msgctxt "taxonomy general name"
+msgid "Slide Show"
+msgstr "Slideshow"
+
+#@ gmp
+#: modules/video/post-types-taxonomies.php:17
+msgctxt "taxonomy singular name"
+msgid "Slide Shows"
+msgstr "Slideshows"
+
+#@ gmp
+#: modules/video/post-types-taxonomies.php:25
+msgctxt "taxonomy general name"
+msgid "Video Category"
+msgstr "Videokategorie"
+
+#@ gmp
+#: modules/video/post-types-taxonomies.php:26
+msgctxt "taxonomy singular name"
+msgid "Video Categories"
+msgstr "Videokategorien"
+
+#@ gmp
+#: modules/video/post-types-taxonomies.php:33
+msgctxt "taxonomy general name"
+msgid "Video Tag"
+msgstr "Videoschlagwort"
+
+#@ gmp
+#: modules/video/post-types-taxonomies.php:34
+msgctxt "taxonomy singular name"
+msgid "Video Tags"
+msgstr "Videoschlagwörter"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:86
+#, php-format
+msgid "New %s"
+msgstr "%s hinzufügen"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:87
+#, php-format
+msgid "View %s"
+msgstr "%s ansehen"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:89
+#, php-format
+msgid "No %s found"
+msgstr "Keine %s gefunden"
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:90
+#, php-format
+msgid "No %s found in trash"
+msgstr "Es befinden sich keine %s im Papierkorb."
+
+#@ gmp
+#: classes/post-types-taxonomies/ntg_Post_Type_Taxonomies.php:83
+msgid "Add New"
+msgstr "Hinzufügen"
+

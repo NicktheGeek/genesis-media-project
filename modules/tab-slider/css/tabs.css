@@ -1,0 +1,168 @@
+/* 
+    Document   : tabs
+    Created on : Jan 19, 2012, 1:57:21 PM
+    Author     : Nick
+    Description:
+        This is the Generic Style Rules to the Video Tabs.
+*/
+
+
+.tab_container {
+  clear: both;
+  height: 270px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 5px;
+  width: 910px;
+}
+
+.tab_content {
+  padding: 0;
+  display: none;
+}
+
+#gmp-tab {
+	display: block;
+}
+
+.tab_container .video {
+  float: left;
+  height: 270px;
+  overflow: hidden;
+  width: 530px;
+}
+
+.tab_container .video iframe, 
+.tab_container .video embed, 
+.tab_container .video object,
+.tab_container .video .flowplayer-video {
+  height: 270px;
+  width: 530px;
+}
+
+.tab_container .text {
+  float: right;
+  padding: 10px 15px 0 0;
+  width: 340px;
+}
+
+.tab_content h2 {
+  line-height: 30px;
+  margin: 0 0 5px;
+  padding: 0 0 10px;
+}
+
+.tab_content h2 a {
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.tab_content .post-info {
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+
+ul.tabs {
+  height: 150px;
+  list-style: none outside none;
+  margin: 0 auto;
+  padding: 0;
+  width: 920px;
+}
+
+ul.tabs li {
+  float: left;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+ul.tabs li a {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 12px 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+
+/* Responsive Design
+------------------------------------------------------------ */
+
+
+@media only screen and (max-width: 920px) {
+
+    .tab_container {
+        height: auto;
+        width: 96%;
+        padding: 5px 1%; 
+    }
+    
+    .tab_container .video {
+        width: 60%;
+    }
+    
+    .tab_container .video iframe, 
+    .tab_container .video embed, 
+    .tab_container .video object,
+    .tab_container .video .flowplayer-video {
+        width: 100%;
+    }
+    
+    .tab_container .text {
+        width: 38%;
+        padding-right: 1%; 
+    }
+    
+    ul.tabs{
+        width: 96%;
+        padding: 0 1%;
+    }
+    
+    ul.tabs li {
+        display: block;
+        margin: 0 1%;
+        width: 18%;
+    }
+    
+    ul.tabs li a {
+        margin: 20px 0 5px;
+        padding: 5px 3%;
+        width: 94%;
+    }
+    
+    ul.tabs li img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .tab_container .video {
+        width: 100%;
+    }
+    
+    .tab_container .text {
+        width: 98%;
+    }
+    
+    ul.tabs {
+        height: auto;
+        overflow: hidden;
+    }
+    
+    ul.tabs li:last-child {
+        float:right;
+    }
+    
+    ul.tabs li {
+        width: 31%;
+    }
+
+}
